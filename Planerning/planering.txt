@@ -1,6 +1,26 @@
+
 1. Planering
 
     1.1 Kundbeskrivning
-    Kunden är en grundskola med förskola till årskurs 9.
+    Kunden är en grundskola med klasser från förskola till årskurs 9.
 
-    1.2 målgrupp
+    1.2 Målgrupp, Personas, Scenarios
+    Målgruppen är elevernas föräldrar samt eleverna själva. De behöver i stort sätt samma information medan barnen är små.
+    De ska kunna hitta information om skolan, hitta elevens schema,kontakt uppgifter till receptionen och övrig personal
+    , sjukanmäla sig.
+
+        Senario 1
+        En förälder som nyss har flyttat till stan vill söka upp information om skolan och personal. Föräldern kan
+        klicka sig fram till "om skolan" sidan och även ta sig till "vår personal" sidan och kan hitta information.
+
+        Senario 2
+        En elev vill se vad som händer den här veckan och kan se nyheter på startsidan och kan också logga in på
+        "mitt schema" sidan för att se sitt eget schema.
+
+        Senario 3
+        En förälder vill sjukanmäla sitt barn och behöver ringa receptionen. Föräldern lyckas hitta telefonnumret på 
+        startsidan men vill även hitta elevens mentors telefonnummer. Föräldern klickar sig till "Vår personal"
+        sidan och hittar numret under en bild på mentorn.
+
+        Senario 4
+    
