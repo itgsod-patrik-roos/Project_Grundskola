@@ -22,5 +22,5 @@
         startsidan men vill även hitta elevens mentors telefonnummer. Föräldern klickar sig till "Vår personal"
         sidan och hittar numret under en bild på mentorn.
 
-        Senario 4
+
     
