@@ -30,7 +30,7 @@
     text-align: center;
     padding: 1vw;
     outline: 0px;
-    background-color: darkgray;
+    background-color: darkgreen;
     border-right-style: solid ;
     border-bottom-style: solid;
     border-left-style: solid;
@@ -47,6 +47,22 @@ img{
 }
 .header_img img { display: block; }
 .header_navbar div { display: block; }
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover {
+    color: darkgray;
+}
 
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
     margin: 0;
