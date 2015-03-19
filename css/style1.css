@@ -40,9 +40,19 @@
     border-color: black;
     border-bottom-right-radius: 1.5vw;
     border-bottom-left-radius: 1.5vw;
-    font-size: 2.5vw;
     box-shadow: 0.2vw 0.2vw 0.2vw #4C4C4C;
+    font-size: 2.5vw;
+    color: whitesmoke;
 
+}
+
+.navbar_item:hover{
+    color: darkgrey;
+    background-color: darkgreen;
+
+}
+.navbar_item:visited{
+    color: whitesmoke;
 }
 
 #navbar_index{
@@ -61,7 +71,7 @@
 #aktuellt{
     width: 40%;
     padding: 2%;
-    margin-left: 2vw;
+    margin-left: 5%;
     margin-top: 5%;
     background-color: white;
     float: left;
@@ -70,7 +80,42 @@
     box-shadow: 0.2vw 0.2vw 0.2vw 0.1vw  #4C4C4C;
 }
 
+#schema_kont{
+    width: 20%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+    background-color: cornflowerblue;
 
+}
+
+#log_schema{
+    width: 100%;
+    padding: 2%;
+    background-color: white;
+    border: solid transparent;
+    border-radius: 1.5vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.1vw  #4C4C4C;
+}
+
+#kontakt{
+    width: 100%;
+    padding: 2%;
+    margin-top: 20%;
+    background-color: white;
+    border: solid transparent;
+    border-radius: 1.5vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.1vw  #4C4C4C;
+}
+
+#start_log_table{
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+#log_start{
+    text-align: left;
+}
 
 #test{
     display: block;
@@ -89,19 +134,10 @@ a{
     text-decoration: none;
     display: block;
 }
-
-a:link{
-    color: whitesmoke;
+a:hover{
+    color: darkgrey;
 }
 
-a:visited{
-    color: whitesmoke;
-}
-
-a:hover {
-    color: darkgray;
-    background-color: darkgreen;
-}
 
 body{
     background-color: #85E085;
@@ -110,7 +146,10 @@ body{
 h1{
     font-size: 2.5vw;
     text-align: center;
-
+}
+h2{
+    font-size: 2vw;
+    text-align: center;
 }
 
 p{
